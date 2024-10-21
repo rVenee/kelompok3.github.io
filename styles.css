@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0A192F;
+}
+
+h1, h2, h3 {
+    color: #64FFDA;
+}
+
+p {
+    color: #cecece;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #64FFDA;
+}
+
+header {
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.profile-container {
+    max-width: 600px;
+    width: 100%;
+    border: 3px solid #64FFDA;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    background-color: #0A1C2D;
+    padding: 20px;
+}
+
+.data-diri {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.data-diri img {
+    border-radius: 999px;
+    width: 100px;
+    height: 100px;
+}
+
+.data-diri div {
+    color: white;
+}
+
+section {
+    margin-top: 20px;
+}
+
+.instagram-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.instagram-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .data-diri {
+        flex-direction: column;
+        align-items: center;
+    }
+}
